@@ -1,0 +1,29 @@
+.text {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-tall);
+  margin-top: 24px;
+}
+
+.list {
+  margin-top: 24px;
+  padding-left: 24px;
+}
+
+.title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+  margin-top: 48px;
+}
+
+.subtitle {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-normal);
+  margin-top: 32px;
+}
+
+.div {
+  margin-top: 24px;
+}

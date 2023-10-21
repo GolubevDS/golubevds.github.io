@@ -1,0 +1,40 @@
+.contact {
+  width: 800px;
+  margin: 0 auto;
+  padding: 48px;
+}
+
+.title {
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-normal);
+}
+
+.subtitle {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-normal);
+  color: var(--color-text-secondary);
+  margin-top: 12px;
+}
+
+.email {
+  color: var(--color-text-primary);
+  transition: color var(--transition-default);
+}
+
+.email:hover {
+  color: var(--color-primary);
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 48px;
+}
+
+.form textarea,
+.form button {
+  grid-column: 1 / span 2;
+}

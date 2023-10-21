@@ -1,0 +1,34 @@
+.blog {
+  padding: 48px;
+  display: flex;
+  flex-flow: column;
+  gap: 48px;
+}
+
+.title {
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-small);
+}
+
+.backLink {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.article {
+  width: var(--article-width);
+  margin: 0 auto;
+  padding: 48px;
+}
+
+.article img {
+  border-radius: 6px;
+}
+
+.icon {
+  fill: var(--color-foreground);
+  width: 18px;
+  height: 18px;
+}

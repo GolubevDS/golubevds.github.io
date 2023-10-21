@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: var(--sidebar-width);
+}
+
+.content {
+  width: 100%;
+}
