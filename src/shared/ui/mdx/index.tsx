@@ -1,7 +1,7 @@
 import type { MDXComponents } from 'mdx/types';
 import Image from 'next/image';
 
-import styles from './mdx.module.css';
+import styles from './styles.module.css';
 
 export const components: MDXComponents = {
   p: ({ children }) => <p className={styles.text}>{children}</p>,

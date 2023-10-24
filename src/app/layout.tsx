@@ -7,7 +7,7 @@ import '@/shared/styles/globals.css';
 import styles from './layout.module.css';
 
 const outfit = Outfit({
-  weight: ['300', '400', '500'],
+  weight: ['200', '300', '400', '500'],
   variable: '--font-primary',
   subsets: ['latin'],
   display: 'swap',

@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 import { Button } from '@/shared/ui/Button';
 import { TextField } from '@/shared/ui/TextField';
+import { Title } from '@/shared/ui/Typography';
 
 import styles from './page.module.css';
 
@@ -12,7 +13,7 @@ export default function Contact() {
 
   return (
     <div className={styles.contact}>
-      <h1 className={styles.title}>Let`s Chat</h1>
+      <Title>Let`s Chat</Title>
       <p className={styles.subtitle}>
         If you`d like to talk about a potential project or just say hi, send me
         a message or email me at{' '}

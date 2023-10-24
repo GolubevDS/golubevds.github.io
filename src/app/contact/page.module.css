@@ -4,12 +4,6 @@
   padding: 48px;
 }
 
-.title {
-  font-size: var(--font-size-xxl);
-  font-weight: var(--font-weight-light);
-  line-height: var(--line-height-normal);
-}
-
 .subtitle {
   font-size: var(--font-size-sm);
   font-weight: var(--font-weight-light);

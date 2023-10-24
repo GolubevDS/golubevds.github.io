@@ -7,7 +7,7 @@ import { RoutePath } from '@/shared/config/routeConfig';
 export interface SidebarItem {
   path: string;
   label: string;
-  Icon: React.VFC<React.SVGAttributes<SVGElement>>;
+  Icon: IconType;
 }
 
 export const SidebarItemsList: SidebarItem[] = [

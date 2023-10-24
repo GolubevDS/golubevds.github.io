@@ -4,6 +4,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 
 import { ArticleList } from '@/entities/Article/ui/ArticleList';
+import { Title } from '@/shared/ui/Typography';
 
 import styles from './page.module.css';
 
@@ -24,7 +25,7 @@ export default function Blog() {
   });
   return (
     <div className={styles.blog}>
-      <h1 className={styles.title}>Blog</h1>
+      <Title>Blog</Title>
       <ArticleList articles={articles} />
     </div>
   );
